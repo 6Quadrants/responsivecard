@@ -1,0 +1,213 @@
+
+body {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5em;
+}
+
+input {
+    background-color: white;
+    cursor: text;
+    padding: 1em 2em;
+    border-width: 0;
+    border-radius: 3px;
+    margin-right: 2em;
+    
+}
+
+.headline {
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+.row {
+    width: 100%;
+}
+
+.taskbar {
+    background-color: #cccccc;
+    padding: 5em 0 3em 5em;
+}
+
+.available-offers {
+    background-color: #999999;
+    padding: 5em 0 3em 4em;
+
+}
+
+.col-xl-4.col-offer {
+    justify-content: space-around;
+    padding: 2em;
+    margin-top: 5em;
+}
+
+.offer {
+    background-color: #D8D8D8;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 8px 5px #cccccc;    
+}
+
+button {
+    margin: 1em 0;
+}
+
+
+/* .card {
+ 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 8px 5px #cccccc;
+    
+} */
+
+.offer-body {
+}
+
+.logo-body {
+    padding: 1em 2em;
+    display: flex;
+    justify-content: center;
+}
+
+/* .logo {
+    max-width: 75%;
+} */
+
+.offer-header {
+    background-color: #000000;
+    padding: 1em 2em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.inner-body {
+    padding: 15px;    
+}
+
+.offer-text {
+    padding: 1em;
+}
+
+.cta-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 30px 0 10px 0;
+}
+
+p.header-highlight {
+    color: #ffffff;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: .2rem;
+}
+
+p.pg-hightlight {
+    font-style: italic;
+    color: #999999;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400i;
+
+}
+
+button.btn.cta {
+    padding: 5px 25px;
+    background-color: #000000;
+    border-radius: 40px;
+}
+
+h3.button-text {
+    color: #cccccc;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: .4em;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+h4.input-text {
+    color: #999999;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .4em .4em 0 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.container {
+    padding: 2em;
+}
+
+.col-sm-12.col-offer {
+    justify-content: center;
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.inner-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 1em;
+}
+
+.inner-content-one {
+    width: 50%;
+}
+
+.cta-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 1.4em;
+    margin: 0;
+}
+
+button.btn.cta {
+    margin: 0;
+    /* padding: 0; */
+}
+
+.logo-body {
+    padding: 0 2em;
+  
+}
+
+img.logo {
+    max-width: 70%;
+}
+
+
+
+}
